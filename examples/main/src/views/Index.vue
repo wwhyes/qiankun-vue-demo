@@ -14,9 +14,7 @@ export default {
       }
     })
   },
-  render (h) {
-    return h('div', { domProps: { id: 'app-view-box' } })
-  }
+  render: h => h('div', { domProps: { id: 'app-view-box' } })
 }
 </script>
 
