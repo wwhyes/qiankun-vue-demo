@@ -1,5 +1,5 @@
 {
-  "name": "qiankun-demo",
+  "name": "qiankun-vue-demo",
   "version": "1.0.0",
   "description": "qiankun,demo,vue",
   "scripts": {
@@ -15,7 +15,10 @@
     "url": "git+https://github.com/wwhyes/qiankun-demo.git"
   },
   "keywords": [
-    "bug"
+    "qiankun",
+    "vue2",
+    "qiankun-vue",
+    "qiankun-vue-demo"
   ],
   "author": "wwhyes",
   "license": "ISC",
