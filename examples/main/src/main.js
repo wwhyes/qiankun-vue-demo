@@ -11,10 +11,6 @@ import {
 
 Vue.config.productionTip = false
 
-// 路由监听函数
-function genActiveRule (routerPrefix) {
-  return (loading) => loading.pathname.startsWith(routerPrefix)
-}
 let app
 
 /**
@@ -55,7 +51,7 @@ registerMicroApps(
       return {
         ...app,
         container: '#app-view-box',
-        activeRule: genActiveRule(`/${name}`),
+        activeRule: loading => loading.pathname.startsWith(`/${name}`),
         render
       }
     })
