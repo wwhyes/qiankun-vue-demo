@@ -14,3 +14,14 @@
 ### 运行
 
 ```npm run examples:start```
+
+## 目录说明
+
+    root/
+      common/          公用模块
+        components/    公用组件
+      examples/
+        main/          基座 -- qiankun
+        primary-app/   子应用1
+        secondary-app/ 子应用2
+      package.json
