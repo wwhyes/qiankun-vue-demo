@@ -1,13 +1,12 @@
 {
-  "name": "main",
+  "name": "secondary-app",
   "version": "0.1.0",
   "scripts": {
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "nprogress": "^0.2.0",
-    "qiankun": "^2.2.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+  }
 }

@@ -2,10 +2,10 @@ const path = require('path')
 const { name } = require('./package')
 const assetsCDN = {
   externals: {
-    'vue': 'Vue',
+    vue: 'Vue',
     'vue-router': 'VueRouter',
-    'vuex': 'Vuex',
-    'axios': 'axios'
+    vuex: 'Vuex',
+    axios: 'axios'
   },
   css: [],
   js: [
@@ -17,11 +17,11 @@ const assetsCDN = {
   ]
 }
 
-function resolve(dir) {
+function resolve (dir) {
   return path.join(__dirname, dir)
 }
 
-const port = 7101 // dev port
+const port = 9002 // dev port
 
 const vueConfig = {
   /**
@@ -53,7 +53,8 @@ const vueConfig = {
   configureWebpack: {
     resolve: {
       alias: {
-        '@': resolve('src')
+        '@': resolve('src'),
+        '~common': resolve('../../common')
       }
     },
     output: {

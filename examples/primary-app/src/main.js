@@ -12,7 +12,8 @@ let instance = null
 function render (props = {}) {
   const { container } = props
   router = new VueRouter({
-    mode: 'hash',
+    mode: 'history',
+    base: window.__POWERED_BY_QIANKUN__ ? '/primary' : '/',
     routes
   })
 
@@ -20,7 +21,7 @@ function render (props = {}) {
     router,
     store,
     render: h => h(App)
-  }).$mount(container ? container.querySelector('#app') : '#app')
+  }).$mount(container ? container.querySelector('#primary-app') : '#primary-app')
 }
 
 if (window.__POWERED_BY_QIANKUN__) {
