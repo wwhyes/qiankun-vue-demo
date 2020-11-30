@@ -12,8 +12,7 @@ const assetsCDN = {
     'https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js',
     'https://cdn.jsdelivr.net/npm/vue-router@3.1.2/dist/vue-router.min.js',
     'https://cdn.jsdelivr.net/npm/vuex@3.1.1/dist/vuex.min.js',
-    'https://cdn.jsdelivr.net/npm/axios@0.19.2/dist/axios.min.js',
-    'https://webapi.amap.com/maps?v=2.0&key=cf0d803383ea8ae4d67cbc63fa0f5282'
+    'https://cdn.jsdelivr.net/npm/axios@0.19.2/dist/axios.min.js'
   ]
 }
 
