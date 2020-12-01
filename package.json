@@ -7,8 +7,8 @@
     "examples:start": "npm-run-all --parallel start:*",
     "install:main": "cd examples/main && npm i",
     "start:main": "cd examples/main && npm run start",
-    "start:primary": "cd examples/primary-app && npm run start",
-    "start:secondary": "cd examples/secondary-app && npm run start"
+    "start:primary": "cd examples/vue-primary && npm run start",
+    "start:secondary": "cd examples/vue-secondary && npm run start"
   },
   "repository": {
     "type": "git",

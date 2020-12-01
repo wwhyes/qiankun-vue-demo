@@ -1,5 +1,5 @@
 {
-  "name": "primary-app",
+  "name": "vue-primary",
   "version": "0.1.0",
   "scripts": {
     "start": "vue-cli-service serve",

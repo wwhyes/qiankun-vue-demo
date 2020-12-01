@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "nprogress": "^0.2.0",
-    "qiankun": "^2.2.2"
+    "qiankun": "^2.3.2"
   },
   "devDependencies": {}
 }

@@ -1,5 +1,5 @@
 {
-  "name": "secondary-app",
+  "name": "vue-secondary",
   "version": "0.1.0",
   "scripts": {
     "start": "vue-cli-service serve",
